@@ -1,3 +1,30 @@
 .btn{
     width: 100%;
+
+    background-color: $veryDdarkCyan;
+
+    @extend %textInput;
+    color: $white;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    &:hover{
+        background-color: $bgHover;
+        color: $veryDdarkCyan;
+        
+    }
+
+    &--bglight{
+        background-color: $strongCyan;
+        color: $veryDdarkCyan;
+    }
+
+    &:disabled{
+        background-color: $darkDisable;
+        color: $veryDdarkCyan;
+        cursor:no-drop;
+    }
 }

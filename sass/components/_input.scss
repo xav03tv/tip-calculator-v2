@@ -6,12 +6,12 @@
     border:none;
     border-radius: 6px;
 
-    font-size: $font-size-input;
+    @extend %textInput;
     text-align: right;
     padding: 6px 18px;
     padding-left: 54px;
     color: $veryDdarkCyan;
-    font-weight: 700;
+    
 
     border: 2px solid transparent;
 
@@ -42,6 +42,13 @@
         background-image: url("../images/icon-person.svg");
         
     }
+
+    &--txtCenter{
+        text-align: center;
+        padding: 0;
+    }
+
+   
 
     
 
