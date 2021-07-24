@@ -7,10 +7,15 @@ $lightGrayishCyanLight: hsl(189, 41%, 97%);
 $white: hsl(0, 0%, 100%);
 $red : #B77E73;
 $bgHover : #9FE7DF;
-$darkDisable : #0D686D;
+$darkDisable : #0D686D;  
 
 //Fonts Size
 $font-size-normal : 16px;
 $font-size-input : 24px;
 $font-size-mini : 13px;
-$font-size-big : 46px
+$font-size-big : 46px;
+
+//breakpoint
+$breakpoints : (
+    mobile: 920px
+);

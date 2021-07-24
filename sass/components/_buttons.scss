@@ -22,6 +22,10 @@
         color: $veryDdarkCyan;
     }
 
+    &--selected{
+        background-color: $strongCyan;
+    }
+
     &:disabled{
         background-color: $darkDisable;
         color: $veryDdarkCyan;

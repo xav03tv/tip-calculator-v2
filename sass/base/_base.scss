@@ -13,6 +13,10 @@ body{
     flex-direction: column;
     justify-content: center;
 
+    @include mobile-only{
+        width: 100%;
+    }
+
 }
 
 .content{
@@ -20,6 +24,12 @@ body{
     display: grid;
     gap:4em;
     justify-items: center;
+
+    @include mobile-only{
+        margin-top: 3rem;
+    }
+
+    
 
 }
 

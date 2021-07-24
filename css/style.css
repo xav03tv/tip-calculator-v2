@@ -24,12 +24,22 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 920px) {
+  .container {
+    width: 100%;
+  }
+}
 
 .content {
   margin-top: 144px;
   display: grid;
   gap: 4em;
   justify-items: center;
+}
+@media screen and (max-width: 920px) {
+  .content {
+    margin-top: 3rem;
+  }
 }
 
 .mainLogo {
@@ -91,6 +101,9 @@ body {
   background-color: #26c0ab;
   color: #00494d;
 }
+.btn--selected {
+  background-color: #26c0ab;
+}
 .btn:disabled {
   background-color: #0D686D;
   color: #00494d;
@@ -149,7 +162,7 @@ body {
 }
 
 .calculator {
-  width: 920px;
+  width: 100%;
   background-color: white;
   border-radius: 1rem;
   display: grid;
@@ -164,6 +177,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media screen and (max-width: 920px) {
+  .calculator {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
