@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-body {
+* {
   font-family: "Space Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c5e4e7;
 }
 
 .container {
@@ -13,6 +23,43 @@ body {
 
 .mainLogo {
   width: 100px;
+}
+
+.mainLogo {
+  width: 100px;
+}
+
+.input {
+  width: 100%;
+  background-color: #f4fafa;
+  border: none;
+  border-radius: 6px;
+  font-size: 24px;
+  text-align: right;
+  padding: 6px 18px;
+  padding-left: 54px;
+  color: #00494d;
+  font-weight: 700;
+  border: 2px solid transparent;
+}
+.input:focus-visible {
+  outline: none !important;
+  border: 2px solid #26c0ab;
+}
+.input--error {
+  outline: none !important;
+  border: 2px solid #B77E73;
+}
+.input--icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 1em;
+}
+.input--dollar {
+  background-image: url("../images/icon-dollar.svg");
+}
+.input--person {
+  background-image: url("../images/icon-person.svg");
 }
 
 /*# sourceMappingURL=style.css.map */
